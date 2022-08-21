@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio | Jiyoon Choi</title>   
+    <link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;500&family=Lora&display=swap');</style>
+</head>
+
+<body id="portfolio">
+    <!-- NAVIGATION -->
+    <nav>
+        <a id="top-left" href="index.html">Jiyoon Choi</a>
+        <div id="top-right">
+          <a class="menu-item" href="about.html">About</a>
+          <a class="menu-item" href="portfolio.html">Portfolio</a>
+          <a class="menu-item" href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <style>
+      .menu-item {
+          margin-left: 8px;
+          padding-left: 16px;
+          text-decoration: none;
+
+          /* cool effect for navigation items */
+          position: relative;
+          display: inline-block;
+          font-size: 3em;
+          font-weight: 800;
+          color: #ffffff;
+          overflow: hidden;
+          background: linear-gradient(to right, #ffffff, #ffffff 50%, #2a2d79 50%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-size: 200% 100%;
+          background-position: 100%;
+          transition: background-position 275ms ease;
+      }     
+    </style>
+
+    <!-- WELCOME! -->
+    <div class="portfolio-welcome">
+        <div id="portfolio-welcome-text">
+            <h1>Welcome to <br> my Portfolio!</h1>
+            <p id="caption">I love anything that could <br> possibly constitute as art, <br>
+              and plan to incorporate <br> creative thinking into my <br> career in the future.</p>
+        </div>
+        <div id="portfolio-image">
+            <img src="../portfolio files/collage.png" class="collage">
+        </div>
+    </div>
+
+    <!-- CURRENT PROJECT -->
+    <div class="current-project">
+        <div id="current-project-title"> Current Project </div>
+        <div id="current-project-details"> 
+            <p> 
+                <strong> Title: </strong> 
+                Personal Portfolio Website
+                <i> (this!!!) </i>
+            </p>
+            <p> 
+                <strong> Description: </strong>
+                This website is my very first outside-of-school coding project. 
+                I’ve always wanted to create my own product using code but I 
+                never quite knew where to begin. I’ve been having such a fun 
+                time figuring out how to bring 
+                
+                <a id="figma-link" onclick="window.open(this.href, '_blank');return false;" 
+                href="https://www.figma.com/file/J2OXAKyOVQP5q2aKfrjzvP/
+                Personal-website?node-id=0%3A1"> my drafted Figma designs </a>
+                
+                to fruition, 
+                and can’t wait to grow this page over time. 
+            </p>
+        </div>
+        <div>
+            <br><br>
+            <p>
+                adding more soon...
+            </p>
+        </div>
+    </div>
+
+    <!-- TYPES OF MEDIA -->
+    <div id="media-types-title"> Media Types </div>
+    <div class="media-types">
+        <!-- PHOTOGRAPHY -->
+        <div class="photos">
+            photos
+        </div>
+        <!-- DIGITAL MEDIA -->
+        <div class="digital-media">
+            digital media
+        </div>
+        <!-- PAINTINGS -->
+        <div class="paintings">
+            paintings
+        </div>
+        <!-- DRAWINGS -->
+        <div class="drawings">
+            drawings
+        </div>
+        <!-- COLLAGES -->
+        <div class="collages">
+            collages
+        </div>
+        <!-- WRITING -->
+        <div class="writing">
+            writing
+        </div>
+    </div>
+    <br><br>
+    <p id="note">
+        under construction!
+    </p>
+    <style>
+        #note {
+            color: rgb(159, 26, 26);
+            text-align: center; 
+            font-weight: bold; 
+            font-size: 24px;
+            text-decoration: underline;
+            font-style: italic;
+        }
+    </style>
+
+  <!-- FOOTER -->
+<footer>
+  <h3> stay in touch. </h3><br>
+
+  <div class="row">
+      <div class="column">
+          <div id="mail">
+              <a href="mailto:jiyoon.choi@tufts.edu" target="_blank">
+                  <img src="../other files/mail.svg" width="40" height="40"></a>
+          </div>
+      </div>
+      <div class="column">
+          <a onclick="window.open(this.href, '_blank');return false;" href="https://www.linkedin.com/in/choi-jiyoon/">
+              <img src="../other files/linkedin.svg" width="35" height="35"></a>
+          </a>
+      </div>
+      <div class="column">
+          <a onclick="window.open(this.href, '_blank');return false;" href="https://www.instagram.com/artbyjiyoon/">
+              <img src="../other files/instagram.svg" width="35" height="35"></a>
+          </a>
+      </div>
+  </div>
+  <br>
+  <div id="myBtn"><a href="#top" style="color: black"> back to top </a></div>
+</footer>
+
+</body>
+
+</html>

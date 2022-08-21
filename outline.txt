@@ -1,0 +1,111 @@
+===========================================================================
+***************************************************************************
+BUG FIXES:
+- Figure out how to move things around lol
+- wait is it ok to use both flex and grid here and there, idek the difference
+- add hyperlinks to "About" page
+- FIGURE OUT COLORS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    - should i make all nav second-color be white instead of pink?
+- add captions to artwork
+- lower achievements info (increase space btwn title and body text)
+
+***************************************************************************
+===========================================================================
+
+HOME PAGE:
+- ✓ Bio
+- ✓ Action button -> Portfolio
+- ✓ Photo of myself
+
+
+===========================================================================
+
+ABOUT:
+- Who am I?
+    - Undergrad student at Tufts
+    - Grew up in Greater Boston Area
+    - Loves sushi, frog-themed trinkets, and movies
+- My current interests
+    - Front-end product engineering
+    - Interface optimization research
+    - Human-Computer Interaction
+    - Ethics/Psychology of Computer Science and AI
+    - How technology is transforming the contemporary art scene (the good and the bad)
+    - The proliferation of speed as the contending priority in modern day consumerism
+- Experience
+    - Education
+        - Tufts University
+            - B.S. in Computer Science, Minor in Math
+            - Courses: CS 11, CS 15, CS 40, CS 61, Linear Algebra
+            - Society of Women Engineers
+            - Asian American Center
+        - Lexington High School
+            - MetroHacks
+            - Robotics
+            - HOLHS 
+            - MFA job
+    - Work
+        - EPDC
+            - Photo of space
+            - Responsibilities
+        - MetroHacks
+            - Links to website
+            - Images of Work
+            - My impact as Branding Director
+            - My impact through communication
+        - MFA TAC
+            - Photos of work there
+            - My impact as teen advisor
+            - What we did
+    - Special recognition
+        - GHC Scholar
+        - NCWIT award
+    - Technical skills
+
+
+===========================================================================
+
+PORTFOLIO:
+
+// As you scroll, make the Project titles fade in
+
+- Welcome text + collage adjacent to it
+    - Mention commisions
+    - Link my Behance
+- "Highlight" block showing my current/most recent project
+- College Visual Arts Portfolio
+- Table of contents for types of media
+    - Me in museums / looking at art
+    - Collages
+    - Drawings
+        - Pencil
+        - Colored Pencil
+        - Pen/Ink
+        - Charcoal
+        - Pastel
+    - Paintings
+        - Watercolor
+        - Acrylic
+        - Oil
+    - Digital media
+        - Digital art
+        - Animation 
+        - UI designs
+    - Photography
+        - Portrait
+        - Landscape
+        - Macro lens
+        - Light photography
+        - Events (pre-COVID)
+- Each type of media -> artwork for each
+
+
+===========================================================================
+
+CONTACT:
+- Fields for email info + message
+- Means of contacting me
+    - Email 
+    - Art instagram
+    - Linkedin
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }   
+</style>
+<head>
+    <title>Contact | Jiyoon Choi</title>   
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;500&family=Lora&display=swap');</style>
+</head>
+
+<body id="contact">
+    <!-- NAVIGATION -->
+    <nav>
+        <a id="top-left" href="index.html">Jiyoon Choi</a>
+        <div id="contact-nav">
+            <a class="menu-item" href="about.html">About</a>
+            <a class="menu-item" href="portfolio.html">Portfolio</a>
+            <a class="menu-item" href="contact.html">Contact</a>
+        </div>
+        <style>
+            .menu-item {
+                margin-left: 8px;
+                padding-left: 16px;
+                text-decoration: none;
+
+                /* cool effect for navigation items */
+                position: relative;
+                display: inline-block;
+                font-size: 3em;
+                font-weight: 800;
+                color: #F57C9C;
+                overflow: hidden;
+                background: linear-gradient(to right, #F57C9C, #F57C9C 50%, #2a2d79 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 275ms ease;
+            }     
+        </style>
+    </nav>
+
+    <!-- CONTACT FORM -->
+    <div class="contact-form">
+        <form name="contact" method="POST" action="https://formspree.io/f/mrgdbzbj">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="fullname" placeholder="Your name...">
+    
+          <label for="body">Body</label>
+          <textarea id="body" name="body" placeholder="Write something..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="formspree-credit">
+        Powered by formspree.
+    </div>
+</body>
+
+<!-- FOOTER -->
+<footer>
+    <h3> stay in touch. </h3><br>
+
+    <div class="row">
+        <div class="column">
+            <div id="mail">
+                <a href="mailto:jiyoon.choi@tufts.edu" target="_blank">
+                    <img src="../other files/mail.svg" width="40" height="40"></a>
+            </div>
+        </div>
+        <div class="column">
+            <a onclick="window.open(this.href, '_blank');return false;" href="https://www.linkedin.com/in/choi-jiyoon/">
+                <img src="../other files/linkedin.svg" width="35" height="35"></a>
+            </a>
+        </div>
+        <div class="column">
+            <a onclick="window.open(this.href, '_blank');return false;" href="https://www.instagram.com/artbyjiyoon/">
+                <img src="../other files/instagram.svg" width="35" height="35"></a>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="myBtn"><a href="#top" style="color: black"> back to top </a></div>
+</footer>
+
+</html>
