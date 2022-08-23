@@ -24,7 +24,7 @@
     <!-- HOME PAGE CONTENT -->
     <div class="bio">
         <div>
-            <img src="./photos/profile-pic.png" class="profile">
+            <img src="./media/profile-pic.png" class="profile">
             <style>
                 .profile {
                     width: 200px;
@@ -43,16 +43,21 @@
                 engineering and UX design.
                 <br><br>
                 Along with my love of engineering and CS, I'm an artist at 
-                heart! I've been drawing and painting since I could hold a 
-                pencil, so make sure to click the button below to check out my art.
+                heart! I've been drawing, painting, and crafting ever since 
+                I could hold a pencil.
             </div>
         </div>
     </div>
 
+    <!-- <div>
+        <a class="button" href="portfolio.html"> Portfolio </a>
+    </div> -->
+
     <div>
-        <a class="button" href="portfolio.html">Portfolio</a>
-    </div>
-        
+        <a class="button" onclick="window.open(this.href, '_blank');
+            return false;" href="./media/resume.pdf" download>
+            View Resume
+        </a>
     </div>
 
     <!-- FOOTER -->
@@ -63,17 +68,17 @@
             <div class="column">
                 <div id="mail">
                     <a href="mailto:jiyoon.choi@tufts.edu" target="_blank">
-                        <img src="./photos/mail.svg" width="40" height="40"></a>
+                        <img src="./media/mail.svg" width="40" height="40"></a>
                 </div>
             </div>
             <div class="column">
                 <a onclick="window.open(this.href, '_blank');return false;" href="https://www.linkedin.com/in/choi-jiyoon/">
-                    <img src="./photos/linkedin.svg" width="35" height="35"></a>
+                    <img src="./media/linkedin.svg" width="35" height="35"></a>
                 </a>
             </div>
             <div class="column">
                 <a onclick="window.open(this.href, '_blank');return false;" href="https://www.instagram.com/artbyjiyoon/">
-                    <img src="./photos/instagram.svg" width="35" height="35"></a>
+                    <img src="./media/instagram.svg" width="35" height="35"></a>
                 </a>
             </div>
         </div>

@@ -118,12 +118,12 @@ nav a:hover {
 .button{
     /* BUTTON */
     display: block;
-    width: 150px;
+    max-width: 200px;
     height: 40px;
     line-height: 40px;
     position: relative;
     margin-top: 2%;
-    margin-left: 53%;
+    margin-left: 52%;
     border-radius: 999px;
     
     /* TEXT */
