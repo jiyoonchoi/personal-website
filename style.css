@@ -25,9 +25,9 @@ nav, .portfolio-welcome {
 }
 
 footer {
-  text-align: center;
-  padding: 70px;
-  margin-top: 10%;
+    text-align: center;
+    padding: 70px;
+    margin-top: 10%;
 }
 
 
@@ -56,14 +56,15 @@ nav {
 }
 
 #top-right {
-  justify-self: end;
+    justify-self: end;
 }
 
 /* menu items: portfolio, blog, contact */
-.menu-item {
+.menu-item-index {
     margin-left: 8px;
     padding-left: 16px;
     text-decoration: none;
+    
     /* cool effect for navigation items */
     position: relative;
     display: inline-block;
@@ -71,7 +72,70 @@ nav {
     font-weight: 800;
     color: #ffffff;
     overflow: hidden;
-    background: linear-gradient(to right, #ffffff, #ffffff 50%, #FAC05E 50%);
+    background: linear-gradient(to right, #ddd6ff, #ddd6ff 50%, #FAC05E 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.menu-item-about {
+    margin-left: 8px;
+    padding-left: 16px;
+    text-decoration: none;
+
+    /* cool effect for navigation items */
+    position: relative;
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 800;
+    color: #ffffff;
+    overflow: hidden;
+    background: linear-gradient(to right, #c0ebff, #c0ebff 50%, #FAC05E 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.menu-item-portfolio {
+    margin-left: 8px;
+    padding-left: 16px;
+    text-decoration: none;
+
+    /* cool effect for navigation items */
+    position: relative;
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 800;
+    color: #ffffff;
+    overflow: hidden;
+    background: linear-gradient(to right, #ffe3f1, #ffe3f1 50%, #2a2d79 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+.menu-item-contact {
+    margin-left: 8px;
+    padding-left: 16px;
+    text-decoration: none;
+
+    /* cool effect for navigation items */
+    position: relative;
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 800;
+    color: #ffffff;
+    overflow: hidden;
+    background: linear-gradient(to right, #fef1d8, #fef1d8 50%, #2a2d79 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -115,7 +179,7 @@ nav a:hover {
     font-size: 18px; 
 }
 
-.button{
+.button {
     /* BUTTON */
     display: block;
     max-width: 200px;
@@ -135,7 +199,7 @@ nav a:hover {
     color: white;
 }
 
-.button:hover{
+.button:hover {
     background-color: #FAC05E;
     border: 1px solid #FAC05E;
     color:black;
@@ -245,7 +309,7 @@ nav a:hover {
     grid-column: 1 / span 2;
     margin-bottom: 10%;
     margin-right: 20%;
-    margin-top: 5px;
+    margin-top: 10%;
     text-align: right;
     justify-self: start;
 }
@@ -285,6 +349,17 @@ nav a:hover {
     grid-column: 2 / span 1;
     justify-self: center;
     margin-top: 10%;
+}
+
+#interests-a a {
+    font-weight: bold;
+    font-size: 4em;
+    transition: all 500ms;
+}
+
+#interests-a a:hover {
+    font-size:88px;
+    font-size-adjust: 20px;
 }
 
 /* Human-Computer Interaction */
@@ -329,7 +404,7 @@ nav a:hover {
     padding: 50px;
     justify-content: center; 
     /* text info */
-    font-size: 18px; 
+    font-size: 18px;
     text-align: center;
 }
 
@@ -340,7 +415,7 @@ nav a:hover {
     border-radius: 80px;
     padding: 20px;
     font-size: 24px; 
-    margin-bottom: 6%;
+    /* margin-bottom: 6%; */
     margin-right: 75%;
 }
 
