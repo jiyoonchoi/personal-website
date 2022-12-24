@@ -1,11 +1,10 @@
 #home{ background-color: #9191E9; }
-/* #home{background: linear-gradient(to bottom, #9191E9 30%, #b8b8ff 100%)} */
-#about{ background-color: #0db2ff; }
-/* #about{background: linear-gradient(to bottom, #59CD90 30%, #a1f1c6 100%)} */
+#about{ background-color: #9191E9; }
+#portfolio{ background-color: #9191E9; }
+#contact{ background-color: #9191E9; }
+/* #about{ background-color: #0db2ff; }
 #portfolio{ background-color: #FF9BCB; }
-/* #portfolio{ background: linear-gradient(to bottom, #0db2ff 30%, #77d4ff 100%)} */
-#contact{ background-color: #FFBC42; }
-/* #contact{ background: linear-gradient(to  bottom, #FFBC42 70%, #eccc90 100%)} */
+#contact{ background-color: #FFBC42; } */
 
 html{ 
     box-sizing: border-box
@@ -60,7 +59,8 @@ nav {
 }
 
 /* menu items: portfolio, blog, contact */
-.menu-item-index {
+
+.menu-item-1 {
     margin-left: 8px;
     padding-left: 16px;
     text-decoration: none;
@@ -79,9 +79,9 @@ nav {
     background-size: 200% 100%;
     background-position: 100%;
     transition: background-position 275ms ease;
-}
+} 
 
-.menu-item-about {
+.menu-item-2 {
     margin-left: 8px;
     padding-left: 16px;
     text-decoration: none;
@@ -93,49 +93,7 @@ nav {
     font-weight: 800;
     color: #ffffff;
     overflow: hidden;
-    background: linear-gradient(to right, #c0ebff, #c0ebff 50%, #FAC05E 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 275ms ease;
-}
-
-.menu-item-portfolio {
-    margin-left: 8px;
-    padding-left: 16px;
-    text-decoration: none;
-
-    /* cool effect for navigation items */
-    position: relative;
-    display: inline-block;
-    font-size: 3em;
-    font-weight: 800;
-    color: #ffffff;
-    overflow: hidden;
-    background: linear-gradient(to right, #ffe3f1, #ffe3f1 50%, #2a2d79 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 275ms ease;
-}
-
-.menu-item-contact {
-    margin-left: 8px;
-    padding-left: 16px;
-    text-decoration: none;
-
-    /* cool effect for navigation items */
-    position: relative;
-    display: inline-block;
-    font-size: 3em;
-    font-weight: 800;
-    color: #ffffff;
-    overflow: hidden;
-    background: linear-gradient(to right, #fef1d8, #fef1d8 50%, #2a2d79 50%);
+    background: linear-gradient(to right, #ddd6ff, #ddd6ff 50%, #2a2d79 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
