@@ -212,7 +212,7 @@ nav a:hover {
     margin-left: 30%;
     margin-right: 30%;
     /* text/color info */
-    background-color: #99DFFF; 
+    background-color: #ddd6ff; 
     color: black;
     font-weight: bold; 
     font-size: 24px; 
@@ -279,7 +279,7 @@ nav a:hover {
     margin-left: 20%;
     margin-right: 20%;
     /* text/color info */
-    background-color: #99DFFF; 
+    background-color: #ddd6ff; 
     color: black;
     font-weight: bold; 
     font-size: 24px; 
@@ -367,7 +367,7 @@ nav a:hover {
 }
 
 #experience-title {
-    background-color: #99DFFF; 
+    background-color: #ddd6ff; 
     color: black;
     font-weight: bold; 
     border-radius: 80px;
@@ -472,7 +472,7 @@ nav a:hover {
 }
 
 #achievements-title {
-    background-color: #99DFFF; 
+    background-color: #ddd6ff; 
     color: black;
     font-weight: bold; 
     border-radius: 80px;
@@ -500,7 +500,7 @@ nav a:hover {
 }
 
 #skill-name {
-    background-color: #BB4B73; 
+    background-color: #2A2D79; 
     color: white;
     font-weight: bold; 
     border-radius: 80px;
@@ -554,7 +554,7 @@ nav a:hover {
 #portfolio-welcome-text {
     text-align: center;
     margin-right: 20%;
-    background-color: #FFC6E1;
+    background-color: #ddd6ff;
     border-radius: 60px;
     padding: 10px;
     padding-top: 30px;
@@ -562,7 +562,7 @@ nav a:hover {
 }
 
 #portfolio-image {
-  justify-self: end;
+    justify-self: end;
 }
 
 #caption {
@@ -596,7 +596,7 @@ nav a:hover {
 }
 
 #current-project-title {
-    background-color: #FFC6E1; 
+    background-color: #ddd6ff; 
     color: black;
     font-weight: bold; 
     border-radius: 80px;
@@ -625,7 +625,7 @@ nav a:hover {
 }
 
 #media-types-title {
-    background-color: #FFC6E1; 
+    background-color: #ddd6ff; 
     color: black;
     font-weight: bold; 
     border-radius: 80px;
@@ -699,8 +699,8 @@ nav a:hover {
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px; 
-    border: 1px solid #ffe590;
-    border-radius: 4px;
+    border: 1px solid #ddd6ff;
+    border-radius: 6px;
     box-sizing: border-box;
 
     /* Margins */
@@ -714,7 +714,7 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
 }
   
@@ -724,7 +724,7 @@ input[type=submit]:hover {
 
 .contact-form {
     border-radius: 30px;
-    background-color: #ffe590;
+    background-color: #ddd6ff;
     padding: 20px;
 
     /* Margins */
